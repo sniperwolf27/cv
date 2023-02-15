@@ -132,14 +132,10 @@ margin-bottom: 3.125rem;
   padding: 10px 20px;
   text-decoration: none;
 }
+
 #copiright{
   color: #FFEFD6;
-  height: -25px;
-  width: 500;
 } 
-.img{
-  pointer-events: none;
-}
 
 /* unvisited link */
 a:link {
