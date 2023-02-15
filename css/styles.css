@@ -123,6 +123,7 @@ margin-bottom: 3.125rem;
   margin-top: 100px;
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
+  border-bottom: solid;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
   color: #FFEFD6;
@@ -133,10 +134,14 @@ margin-bottom: 3.125rem;
 }
 #copiright{
   color: #FFEFD6;
-  display: inline-block;
+  display: block;
   height: -25px;
   width: 500;
 } 
+.img{
+  pointer-events: none;
+}
+
 /* unvisited link */
 a:link {
     color: #FFEFD6;
@@ -164,7 +169,3 @@ a:link {
   a:visited {
     text-decoration: none;
   }
-  
-
-
-
